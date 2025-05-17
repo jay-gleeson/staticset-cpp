@@ -1,0 +1,25 @@
+A = {12, 50, 18, 32, 77, 99, 63, 64, 42}
+B = {4, 32, 2, 16, 1, 8, 64}
+PASS: Union operation
+  Expected: {99, 77, 64, 32, 50, 16, 63, 12, 42, 8, 4, 2, 18, 1}
+  Actual:   {1, 16, 42, 63, 99, 8, 77, 32, 64, 18, 12, 50, 4, 2}
+PASS: Intersection operation
+  Expected: {64, 32}
+  Actual:   {64, 32}
+PASS: A \ B operation
+  Expected: {12, 18, 50, 99, 77, 63, 42}
+  Actual:   {42, 99, 18, 63, 50, 77, 12}
+PASS: B \ A operation
+  Expected: {8, 4, 2, 16, 1}
+  Actual:   {8, 1, 16, 2, 4}
+
+Set = {eight, seven, five, four, ten, two, one, nine, six, three, zero}
+PASS: Filter operation
+  Expected: {five, four, ten, two, one, nine, six, zero}
+  Actual:   {zero, six, one, two, ten, nine, four, five}
+PASS: Map operation
+  Expected: {5, 4, 3}
+  Actual:   {3, 4, 5}
+
+Binary operations score: 3 out of 3
+Unary operations score: 2 out of 2
