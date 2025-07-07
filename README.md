@@ -1,4 +1,4 @@
-# StaticSet
+# 10.5 LAB: Implementing StaticSet using unordered_set C++
 📝  Implementing StaticSet using C++ unordered_set lab for CS189.
 
 This repository contains an example solution that demonstrates how to implement set operations using C++'s unordered_set standard library. It works to support various data types like integers and strings and performs set operations union, difference, intersection, map, and filter. 
