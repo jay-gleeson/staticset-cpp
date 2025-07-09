@@ -1,3 +1,8 @@
+<div align="center">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/jay-gleeson/staticset-cpp">
+  <img src="https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&amp;logoColor=white" alt="C++">
+</div>
+
 # 10.5 LAB: Implementing StaticSet using unordered_set C++
 📝  Implementing StaticSet using C++ unordered_set lab for CS189.
 
